@@ -38,11 +38,21 @@ export default function ProjectModal({ project, onClose }) {
         <p className="project-modal__desc">{project.description}</p>
 
         {project.tech?.length > 0 && (
-          <ul className="project-modal__tech">
-            {project.tech.map((t) => (
-              <li key={t}>{t}</li>
-            ))}
-          </ul>
+          <>
+            <p className="project-modal__label">Tech stack</p>
+            <ul className="project-modal__tech">
+              {project.tech.map((t) => (
+                <li key={t}>{t}</li>
+              ))}
+            </ul>
+          </>
+        )}
+
+        {project.deployment && (
+          <p className="project-modal__deployment">
+            <span className="project-modal__label">Deployment</span>
+            {project.deployment}
+          </p>
         )}
 
         {project.link && (

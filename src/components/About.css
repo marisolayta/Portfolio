@@ -87,9 +87,9 @@
   padding: 0.35rem 0.85rem;
   border-radius: 999px;
   font-size: 0.82rem;
-  background: rgba(244, 114, 182, 0.12);
+  background: var(--surface-tint);
   border: 1px solid var(--border);
-  color: var(--text-secondary);
+  color: var(--text-primary);
 }
 
 @media (max-width: 768px) {

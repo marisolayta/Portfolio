@@ -49,7 +49,7 @@
 .navbar__nav button:hover,
 .navbar__nav button.active {
   color: var(--accent);
-  background: rgba(244, 114, 182, 0.12);
+  background: var(--surface-tint);
 }
 
 .navbar__actions {

@@ -11,19 +11,21 @@
 .project-modal__backdrop {
   position: absolute;
   inset: 0;
-  background: rgba(18, 8, 16, 0.75);
+  background: var(--modal-backdrop);
   border: none;
 }
 
 .project-modal__panel {
   position: relative;
-  width: min(480px, 100%);
+  width: min(520px, 100%);
   max-height: 90vh;
   overflow-y: auto;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 24px;
   padding: 2rem;
+  box-shadow: var(--shadow);
+  color: var(--text-primary);
 }
 
 .project-modal__close {
@@ -34,20 +36,38 @@
   color: var(--text-muted);
 }
 
-.project-modal__tag {
-  font-size: 0.8rem;
+.project-modal__close:hover {
   color: var(--accent);
-  font-weight: 600;
+}
+
+.project-modal__tag {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .project-modal__title {
-  margin: 0.35rem 0 1rem;
+  margin: 0.5rem 0 1rem;
+  color: var(--text-primary);
 }
 
 .project-modal__desc {
   color: var(--text-secondary);
-  margin-bottom: 1rem;
-  line-height: 1.7;
+  margin-bottom: 1.25rem;
+  line-height: 1.75;
+}
+
+.project-modal__label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
 }
 
 .project-modal__tech {
@@ -59,11 +79,23 @@
 }
 
 .project-modal__tech li {
-  padding: 0.3rem 0.75rem;
+  padding: 0.35rem 0.85rem;
   border-radius: 999px;
-  font-size: 0.8rem;
-  background: rgba(244, 114, 182, 0.12);
+  font-size: 0.82rem;
+  font-weight: 600;
+  background: var(--surface-tint);
   border: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.project-modal__deployment {
+  margin-bottom: 1.25rem;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+.project-modal__deployment .project-modal__label {
+  margin-bottom: 0.25rem;
 }
 
 .project-modal__link {

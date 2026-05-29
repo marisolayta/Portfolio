@@ -1,4 +1,5 @@
-import { SiCss, SiHtml5, SiJavascript } from 'react-icons/si';
+import { FaJava } from 'react-icons/fa6';
+import { SiC, SiCss, SiHtml5, SiJavascript, SiMysql, SiPhp } from 'react-icons/si';
 import { skills } from '../data/portfolio';
 import './Skills.css';
 
@@ -6,6 +7,10 @@ const iconMap = {
   html: SiHtml5,
   css: SiCss,
   javascript: SiJavascript,
+  php: SiPhp,
+  mysql: SiMysql,
+  java: FaJava,
+  c: SiC,
 };
 
 export default function Skills() {

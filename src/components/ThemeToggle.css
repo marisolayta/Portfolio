@@ -13,6 +13,6 @@
 }
 
 .theme-toggle:hover {
-  background: rgba(244, 114, 182, 0.15);
+  background: var(--surface-tint);
   transform: scale(1.05);
 }

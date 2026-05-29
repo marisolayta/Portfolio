@@ -1,3 +1,7 @@
+.contact {
+  background: var(--bg-secondary);
+}
+
 .contact__grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -26,6 +30,7 @@
 .contact__card h3 {
   font-size: 1rem;
   margin-bottom: 0.35rem;
+  color: var(--text-primary);
 }
 
 .contact__card p {
@@ -47,7 +52,7 @@
   padding: 0.6rem 1.25rem;
   border-radius: 999px;
   border: 1px solid var(--border);
-  background: rgba(244, 114, 182, 0.08);
+  background: var(--surface-tint);
   font-weight: 600;
   font-size: 0.9rem;
 }

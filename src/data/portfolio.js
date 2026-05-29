@@ -52,8 +52,12 @@ export const education = [
 
 export const skills = [
   { name: 'HTML5', icon: 'html' },
-  { name: 'CSS3', icon: 'css' },
-  { name: 'JavaScript', icon: 'javascript' },
+  { name: 'CSS', icon: 'css' },
+  { name: 'JS', icon: 'javascript' },
+  { name: 'PHP', icon: 'php' },
+  { name: 'MySQL', icon: 'mysql' },
+  { name: 'Java', icon: 'java' },
+  { name: 'C', icon: 'c' },
 ];
 
 export const softSkills = [
@@ -63,7 +67,21 @@ export const softSkills = [
   'Adaptability',
 ];
 
-export const projects = [];
+export const projects = [
+  {
+    id: 'pink-petal-cafe',
+    tag: 'Personal Project · Web Development',
+    title: 'Pink Petal Cafe',
+    shortDescription:
+      'A simple cafe website that lets customers browse the menu and place orders online.',
+    description:
+      'Pink Petal Cafe is a simple cafe website that lets customers browse the menu and place orders online. I built it as a personal project to practice creating a clean, user-friendly interface and connecting a React frontend with a MySQL database for real-world ordering flow.',
+    tech: ['HTML', 'CSS', 'React', 'MySQL'],
+    deployment: 'InfinityFree',
+    link: 'https://pinkpetalcafe.infinityfree.me/',
+    linkLabel: 'Visit Pink Petal Cafe',
+  },
+];
 
 export const navLinks = [
   { id: 'home', label: 'Home' },

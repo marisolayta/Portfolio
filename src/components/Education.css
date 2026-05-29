@@ -28,6 +28,6 @@
 
 .education__card time {
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   font-weight: 600;
 }
