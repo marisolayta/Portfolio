@@ -15,6 +15,7 @@ export default function Education() {
             <article key={item.level} className="education__card card">
               <h3>{item.level}</h3>
               <p className="education__school">{item.school}</p>
+              {item.course && <p className="education__course">{item.course}</p>}
               <time>{item.year}</time>
             </article>
           ))}

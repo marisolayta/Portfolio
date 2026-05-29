@@ -34,19 +34,20 @@ export const personalInfo = [
 
 export const education = [
   {
-    level: 'Tertiary',
-    school: 'School name · Location',
-    year: 'Year – Year',
+    level: 'College',
+    school: 'Bohol Island State University – Calape, Bohol',
+    course: 'Bachelor of Science in Computer Science',
+    year: 'Expected graduation · 2027',
   },
   {
-    level: 'Secondary',
-    school: 'School name · Location',
-    year: 'Year – Year',
+    level: 'High School',
+    school: 'Tubigon West Central High School, Pooc Oriental, Tubigon, Bohol',
+    year: 'Graduated · 2023',
   },
   {
     level: 'Elementary',
-    school: 'School name · Location',
-    year: 'Year – Year',
+    school: 'Tubigon West Central Elementary School, Pooc Oriental, Tubigon, Bohol',
+    year: 'Graduated · 2017',
   },
 ];
 
