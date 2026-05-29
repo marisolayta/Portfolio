@@ -1,7 +1,6 @@
 # Marisol Ayta — Portfolio
 
-A soft pink, dark-themed personal portfolio (local preview only for now).
-
+My personal portfolio
 ## Run locally
 
 ```bash
