@@ -51,7 +51,7 @@ export const education = [
 ];
 
 export const skills = [
-  { name: 'HTML5', icon: 'html' },
+  { name: 'HTML', icon: 'html' },
   { name: 'CSS', icon: 'css' },
   { name: 'JS', icon: 'javascript' },
   { name: 'PHP', icon: 'php' },
